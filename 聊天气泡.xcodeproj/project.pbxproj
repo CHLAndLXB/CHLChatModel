@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE121C611DB45F1700C28179 /* bubbleSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE121C5D1DB45F1700C28179 /* bubbleSomeone@2x.png */; };
+		EE121C621DB45F1700C28179 /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = EE121C5E1DB45F1700C28179 /* bubbleSomeone.png */; };
+		EE121C631DB45F1700C28179 /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE121C5F1DB45F1700C28179 /* bubbleMine@2x.png */; };
+		EE121C641DB45F1700C28179 /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = EE121C601DB45F1700C28179 /* bubbleMine.png */; };
+		EE4C0C0B1DD9564900023129 /* MessageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE4C0C0A1DD9564900023129 /* MessageList.plist */; };
+		EEFCA0EE1DB0D3A3000522CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCA0ED1DB0D3A3000522CD /* main.m */; };
+		EEFCA0F11DB0D3A3000522CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCA0F01DB0D3A3000522CD /* AppDelegate.m */; };
+		EEFCA0F41DB0D3A3000522CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCA0F31DB0D3A3000522CD /* ViewController.m */; };
+		EEFCA0F71DB0D3A3000522CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFCA0F51DB0D3A3000522CD /* Main.storyboard */; };
+		EEFCA0F91DB0D3A3000522CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFCA0F81DB0D3A3000522CD /* Assets.xcassets */; };
+		EEFCA0FC1DB0D3A3000522CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFCA0FA1DB0D3A3000522CD /* LaunchScreen.storyboard */; };
+		EEFCA1071DB0D3A3000522CD /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCA1061DB0D3A3000522CD /* ____Tests.m */; };
+		EEFCA1121DB0D3A4000522CD /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCA1111DB0D3A3000522CD /* ____UITests.m */; };
+		EEFCA1221DB0D3C7000522CD /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCA1201DB0D3C7000522CD /* ChatTableViewController.m */; };
+		EEFCA1231DB0D3C7000522CD /* ChatTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFCA1211DB0D3C7000522CD /* ChatTableViewController.xib */; };
+		EEFCA1271DB0D433000522CD /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCA1251DB0D433000522CD /* ChatTableViewCell.m */; };
+		EEFCA1281DB0D433000522CD /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFCA1261DB0D433000522CD /* ChatTableViewCell.xib */; };
+		EEFCA12D1DB0DC5C000522CD /* chatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCA12C1DB0DC5C000522CD /* chatModel.m */; };
+		EEFCA1331DB0E694000522CD /* other.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEFCA1321DB0E694000522CD /* other.jpg */; };
+		EEFCA1351DB0E699000522CD /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEFCA1341DB0E699000522CD /* me.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEFCA1031DB0D3A3000522CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFCA0E11DB0D3A3000522CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFCA0E81DB0D3A3000522CD;
+			remoteInfo = "聊天气泡";
+		};
+		EEFCA10E1DB0D3A3000522CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFCA0E11DB0D3A3000522CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFCA0E81DB0D3A3000522CD;
+			remoteInfo = "聊天气泡";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE121C5D1DB45F1700C28179 /* bubbleSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone@2x.png"; sourceTree = "<group>"; };
+		EE121C5E1DB45F1700C28179 /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
+		EE121C5F1DB45F1700C28179 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
+		EE121C601DB45F1700C28179 /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
+		EE4C0C0A1DD9564900023129 /* MessageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MessageList.plist; sourceTree = "<group>"; };
+		EEFCA0E91DB0D3A3000522CD /* 聊天气泡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "聊天气泡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFCA0ED1DB0D3A3000522CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEFCA0EF1DB0D3A3000522CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEFCA0F01DB0D3A3000522CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEFCA0F21DB0D3A3000522CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEFCA0F31DB0D3A3000522CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEFCA0F61DB0D3A3000522CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEFCA0F81DB0D3A3000522CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEFCA0FB1DB0D3A3000522CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEFCA0FD1DB0D3A3000522CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFCA1021DB0D3A3000522CD /* 聊天气泡Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "聊天气泡Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFCA1061DB0D3A3000522CD /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		EEFCA1081DB0D3A3000522CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFCA10D1DB0D3A3000522CD /* 聊天气泡UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "聊天气泡UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFCA1111DB0D3A3000522CD /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		EEFCA1131DB0D3A4000522CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFCA11F1DB0D3C7000522CD /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewController.h; sourceTree = "<group>"; };
+		EEFCA1201DB0D3C7000522CD /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewController.m; sourceTree = "<group>"; };
+		EEFCA1211DB0D3C7000522CD /* ChatTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatTableViewController.xib; sourceTree = "<group>"; };
+		EEFCA1241DB0D433000522CD /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		EEFCA1251DB0D433000522CD /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		EEFCA1261DB0D433000522CD /* ChatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		EEFCA12B1DB0DC5C000522CD /* chatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatModel.h; sourceTree = "<group>"; };
+		EEFCA12C1DB0DC5C000522CD /* chatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatModel.m; sourceTree = "<group>"; };
+		EEFCA1321DB0E694000522CD /* other.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = other.jpg; sourceTree = "<group>"; };
+		EEFCA1341DB0E699000522CD /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEFCA0E61DB0D3A3000522CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFCA0FF1DB0D3A3000522CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFCA10A1DB0D3A3000522CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEFCA0E01DB0D3A3000522CD = {
+			isa = PBXGroup;
+			children = (
+				EEFCA0EB1DB0D3A3000522CD /* 聊天气泡 */,
+				EEFCA1051DB0D3A3000522CD /* 聊天气泡Tests */,
+				EEFCA1101DB0D3A3000522CD /* 聊天气泡UITests */,
+				EEFCA0EA1DB0D3A3000522CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEFCA0EA1DB0D3A3000522CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCA0E91DB0D3A3000522CD /* 聊天气泡.app */,
+				EEFCA1021DB0D3A3000522CD /* 聊天气泡Tests.xctest */,
+				EEFCA10D1DB0D3A3000522CD /* 聊天气泡UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEFCA0EB1DB0D3A3000522CD /* 聊天气泡 */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCA1341DB0E699000522CD /* me.jpg */,
+				EEFCA1321DB0E694000522CD /* other.jpg */,
+				EE121C5D1DB45F1700C28179 /* bubbleSomeone@2x.png */,
+				EE121C5E1DB45F1700C28179 /* bubbleSomeone.png */,
+				EE121C5F1DB45F1700C28179 /* bubbleMine@2x.png */,
+				EE121C601DB45F1700C28179 /* bubbleMine.png */,
+				EEFCA0EF1DB0D3A3000522CD /* AppDelegate.h */,
+				EEFCA0F01DB0D3A3000522CD /* AppDelegate.m */,
+				EEFCA0F21DB0D3A3000522CD /* ViewController.h */,
+				EEFCA0F31DB0D3A3000522CD /* ViewController.m */,
+				EEFCA12B1DB0DC5C000522CD /* chatModel.h */,
+				EEFCA12C1DB0DC5C000522CD /* chatModel.m */,
+				EEFCA11F1DB0D3C7000522CD /* ChatTableViewController.h */,
+				EEFCA1201DB0D3C7000522CD /* ChatTableViewController.m */,
+				EEFCA1211DB0D3C7000522CD /* ChatTableViewController.xib */,
+				EEFCA1241DB0D433000522CD /* ChatTableViewCell.h */,
+				EEFCA1251DB0D433000522CD /* ChatTableViewCell.m */,
+				EEFCA1261DB0D433000522CD /* ChatTableViewCell.xib */,
+				EEFCA0F51DB0D3A3000522CD /* Main.storyboard */,
+				EEFCA0F81DB0D3A3000522CD /* Assets.xcassets */,
+				EEFCA0FA1DB0D3A3000522CD /* LaunchScreen.storyboard */,
+				EEFCA0FD1DB0D3A3000522CD /* Info.plist */,
+				EE4C0C0A1DD9564900023129 /* MessageList.plist */,
+				EEFCA0EC1DB0D3A3000522CD /* Supporting Files */,
+			);
+			path = "聊天气泡";
+			sourceTree = "<group>";
+		};
+		EEFCA0EC1DB0D3A3000522CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCA0ED1DB0D3A3000522CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEFCA1051DB0D3A3000522CD /* 聊天气泡Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCA1061DB0D3A3000522CD /* ____Tests.m */,
+				EEFCA1081DB0D3A3000522CD /* Info.plist */,
+			);
+			path = "聊天气泡Tests";
+			sourceTree = "<group>";
+		};
+		EEFCA1101DB0D3A3000522CD /* 聊天气泡UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFCA1111DB0D3A3000522CD /* ____UITests.m */,
+				EEFCA1131DB0D3A4000522CD /* Info.plist */,
+			);
+			path = "聊天气泡UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEFCA0E81DB0D3A3000522CD /* 聊天气泡 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFCA1161DB0D3A4000522CD /* Build configuration list for PBXNativeTarget "聊天气泡" */;
+			buildPhases = (
+				EEFCA0E51DB0D3A3000522CD /* Sources */,
+				EEFCA0E61DB0D3A3000522CD /* Frameworks */,
+				EEFCA0E71DB0D3A3000522CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "聊天气泡";
+			productName = "聊天气泡";
+			productReference = EEFCA0E91DB0D3A3000522CD /* 聊天气泡.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEFCA1011DB0D3A3000522CD /* 聊天气泡Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFCA1191DB0D3A4000522CD /* Build configuration list for PBXNativeTarget "聊天气泡Tests" */;
+			buildPhases = (
+				EEFCA0FE1DB0D3A3000522CD /* Sources */,
+				EEFCA0FF1DB0D3A3000522CD /* Frameworks */,
+				EEFCA1001DB0D3A3000522CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFCA1041DB0D3A3000522CD /* PBXTargetDependency */,
+			);
+			name = "聊天气泡Tests";
+			productName = "聊天气泡Tests";
+			productReference = EEFCA1021DB0D3A3000522CD /* 聊天气泡Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEFCA10C1DB0D3A3000522CD /* 聊天气泡UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFCA11C1DB0D3A4000522CD /* Build configuration list for PBXNativeTarget "聊天气泡UITests" */;
+			buildPhases = (
+				EEFCA1091DB0D3A3000522CD /* Sources */,
+				EEFCA10A1DB0D3A3000522CD /* Frameworks */,
+				EEFCA10B1DB0D3A3000522CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFCA10F1DB0D3A3000522CD /* PBXTargetDependency */,
+			);
+			name = "聊天气泡UITests";
+			productName = "聊天气泡UITests";
+			productReference = EEFCA10D1DB0D3A3000522CD /* 聊天气泡UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEFCA0E11DB0D3A3000522CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CHL;
+				TargetAttributes = {
+					EEFCA0E81DB0D3A3000522CD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+					};
+					EEFCA1011DB0D3A3000522CD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+						TestTargetID = EEFCA0E81DB0D3A3000522CD;
+					};
+					EEFCA10C1DB0D3A3000522CD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+						TestTargetID = EEFCA0E81DB0D3A3000522CD;
+					};
+				};
+			};
+			buildConfigurationList = EEFCA0E41DB0D3A3000522CD /* Build configuration list for PBXProject "聊天气泡" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEFCA0E01DB0D3A3000522CD;
+			productRefGroup = EEFCA0EA1DB0D3A3000522CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFCA0E81DB0D3A3000522CD /* 聊天气泡 */,
+				EEFCA1011DB0D3A3000522CD /* 聊天气泡Tests */,
+				EEFCA10C1DB0D3A3000522CD /* 聊天气泡UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEFCA0E71DB0D3A3000522CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFCA0FC1DB0D3A3000522CD /* LaunchScreen.storyboard in Resources */,
+				EEFCA1351DB0E699000522CD /* me.jpg in Resources */,
+				EEFCA1331DB0E694000522CD /* other.jpg in Resources */,
+				EE121C621DB45F1700C28179 /* bubbleSomeone.png in Resources */,
+				EE121C611DB45F1700C28179 /* bubbleSomeone@2x.png in Resources */,
+				EE121C631DB45F1700C28179 /* bubbleMine@2x.png in Resources */,
+				EEFCA0F91DB0D3A3000522CD /* Assets.xcassets in Resources */,
+				EEFCA1281DB0D433000522CD /* ChatTableViewCell.xib in Resources */,
+				EE4C0C0B1DD9564900023129 /* MessageList.plist in Resources */,
+				EE121C641DB45F1700C28179 /* bubbleMine.png in Resources */,
+				EEFCA0F71DB0D3A3000522CD /* Main.storyboard in Resources */,
+				EEFCA1231DB0D3C7000522CD /* ChatTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFCA1001DB0D3A3000522CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFCA10B1DB0D3A3000522CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEFCA0E51DB0D3A3000522CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFCA0F41DB0D3A3000522CD /* ViewController.m in Sources */,
+				EEFCA0F11DB0D3A3000522CD /* AppDelegate.m in Sources */,
+				EEFCA1271DB0D433000522CD /* ChatTableViewCell.m in Sources */,
+				EEFCA12D1DB0DC5C000522CD /* chatModel.m in Sources */,
+				EEFCA0EE1DB0D3A3000522CD /* main.m in Sources */,
+				EEFCA1221DB0D3C7000522CD /* ChatTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFCA0FE1DB0D3A3000522CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFCA1071DB0D3A3000522CD /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFCA1091DB0D3A3000522CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFCA1121DB0D3A4000522CD /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEFCA1041DB0D3A3000522CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFCA0E81DB0D3A3000522CD /* 聊天气泡 */;
+			targetProxy = EEFCA1031DB0D3A3000522CD /* PBXContainerItemProxy */;
+		};
+		EEFCA10F1DB0D3A3000522CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFCA0E81DB0D3A3000522CD /* 聊天气泡 */;
+			targetProxy = EEFCA10E1DB0D3A3000522CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEFCA0F51DB0D3A3000522CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFCA0F61DB0D3A3000522CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEFCA0FA1DB0D3A3000522CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFCA0FB1DB0D3A3000522CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEFCA1141DB0D3A4000522CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEFCA1151DB0D3A4000522CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEFCA1171DB0D3A4000522CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "聊天气泡/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEFCA1181DB0D3A4000522CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "聊天气泡/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEFCA11A1DB0D3A4000522CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "聊天气泡Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/聊天气泡.app/聊天气泡";
+			};
+			name = Debug;
+		};
+		EEFCA11B1DB0D3A4000522CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "聊天气泡Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/聊天气泡.app/聊天气泡";
+			};
+			name = Release;
+		};
+		EEFCA11D1DB0D3A4000522CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "聊天气泡UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "聊天气泡";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEFCA11E1DB0D3A4000522CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "聊天气泡UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "聊天气泡";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEFCA0E41DB0D3A3000522CD /* Build configuration list for PBXProject "聊天气泡" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFCA1141DB0D3A4000522CD /* Debug */,
+				EEFCA1151DB0D3A4000522CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFCA1161DB0D3A4000522CD /* Build configuration list for PBXNativeTarget "聊天气泡" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFCA1171DB0D3A4000522CD /* Debug */,
+				EEFCA1181DB0D3A4000522CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFCA1191DB0D3A4000522CD /* Build configuration list for PBXNativeTarget "聊天气泡Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFCA11A1DB0D3A4000522CD /* Debug */,
+				EEFCA11B1DB0D3A4000522CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFCA11C1DB0D3A4000522CD /* Build configuration list for PBXNativeTarget "聊天气泡UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFCA11D1DB0D3A4000522CD /* Debug */,
+				EEFCA11E1DB0D3A4000522CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEFCA0E11DB0D3A3000522CD /* Project object */;
+}

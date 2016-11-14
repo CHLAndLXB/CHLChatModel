@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Message</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>老师</string>
+			<key>messageType</key>
+			<string>1</string>
+			<key>textString</key>
+			<string>小明请你把“如果每一滴水都能代表一个祝福，那我送你一片海洋”做一个仿句练习！</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>小明</string>
+			<key>messageType</key>
+			<string>0</string>
+			<key>textString</key>
+			<string>如果每一朵花都代表一个祝福,那我会送你一个花圈！
+那我会送你一个花圈！</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>老师</string>
+			<key>messageType</key>
+			<string>1</string>
+			<key>textString</key>
+			<string>滚滚滚，马上滚！！！</string>
+		</dict>
+	</array>
+</dict>
+</plist>
