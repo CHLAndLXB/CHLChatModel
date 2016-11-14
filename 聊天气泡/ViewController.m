@@ -22,6 +22,7 @@
     [self addChildViewController:chat];
     chat.tableView.frame = CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-64);
     [self.view addSubview:chat.tableView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
